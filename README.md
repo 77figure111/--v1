@@ -1,4 +1,14 @@
 # --v1 ---EcomAgentCoder：面向电商客服系统的 Agentic Coding 助手
-用户输入一句自然语言需求： “给电商客服系统新增退款状态查询接口。” 系统自动完成：扫描项目 → 分析需求 → 设计接口 → 生成代码 → 生成 pytest → 运行测试 → 报错修复 → 输出验证报告。
-
-本项目面向电商客服系统中业务接口频繁变更的问题，基于多智能体协同机制，构建了一个 Agentic Coding 助手。系统能够根据自然语言需求自动生成 FastAPI 接口、业务逻辑代码和 pytest 测试用例，并通过测试反馈驱动 Debug Agent 自动修复错误，最终形成从需求到验证的闭环。
+用户输入需求
+  ↓
+PlannerAgent 生成开发计划
+  ↓
+CoderAgent 生成 FastAPI 接口代码
+  ↓
+TesterAgent 生成 pytest 测试
+  ↓
+Executor 自动运行 pytest
+  ↓
+如果失败，DebuggerAgent 根据报错修复
+  ↓
+输出验证报告
