@@ -39,3 +39,13 @@ GET /api/refund/{order_id}
 python -m venv .venv
 .venv\\Scripts\\activate
 pip install -r requirements.txt
+
+
+
+<img width="1241" height="338" alt="1" src="https://github.com/user-attachments/assets/d46be4c4-7f70-43ce-8b5e-03c6acf7f610" />
+<img width="767" height="270" alt="2" src="https://github.com/user-attachments/assets/732ca57a-b1da-4bcc-b429-2786ed3a8d5f" />
+<img width="781" height="458" alt="4" src="https://github.com/user-attachments/assets/d2c650c6-861a-4b0d-8857-b393a7baba12" />
+<img width="715" height="124" alt="5" src="https://github.com/user-attachments/assets/13b1fc07-6e53-4aeb-8dbd-ecb2698ba2b0" />
+
+
+
